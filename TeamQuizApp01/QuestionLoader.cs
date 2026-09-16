@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TeamQuizApp01
 {
-    internal class QuestionLoader
+    public class QuestionLoader
     {
         private readonly List<Question> _questions = new List<Question>();
         private readonly Random _rand = new Random();

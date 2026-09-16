@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TeamQuizApp01
 {
-    internal class Question
+    public class Question
     {
         public string Text { get; set; } = "";
         public string[] Choices { get; set; } = new string[4];
