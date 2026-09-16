@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TeamQuizApp01
 {
-    internal class AnswerChecker
+    public class AnswerChecker
     {
+        public bool CheckAnswer(Question q, int selectedIndex)
+        {
+            return q.CorrectIndex == selectedIndex;
+        }
     }
 }
