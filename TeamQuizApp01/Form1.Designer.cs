@@ -53,6 +53,7 @@
             this.answerButton1.TabIndex = 1;
             this.answerButton1.Text = "button1";
             this.answerButton1.UseVisualStyleBackColor = true;
+            this.answerButton1.Click += new System.EventHandler(this.answerButton_Click);
             // 
             // answerButton2
             // 
@@ -62,6 +63,7 @@
             this.answerButton2.TabIndex = 2;
             this.answerButton2.Text = "button2";
             this.answerButton2.UseVisualStyleBackColor = true;
+            this.answerButton2.Click += new System.EventHandler(this.answerButton_Click);
             // 
             // answerButton3
             // 
@@ -71,6 +73,7 @@
             this.answerButton3.TabIndex = 3;
             this.answerButton3.Text = "button3";
             this.answerButton3.UseVisualStyleBackColor = true;
+            this.answerButton3.Click += new System.EventHandler(this.answerButton_Click);
             // 
             // answerButton4
             // 
@@ -80,6 +83,7 @@
             this.answerButton4.TabIndex = 4;
             this.answerButton4.Text = "button4";
             this.answerButton4.UseVisualStyleBackColor = true;
+            this.answerButton4.Click += new System.EventHandler(this.answerButton_Click);
             // 
             // questionLabel
             // 
