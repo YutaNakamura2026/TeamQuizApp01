@@ -36,7 +36,7 @@ namespace TeamQuizApp01
         private void answerButton_Click(object sender, EventArgs e)
         {
             var btn = sender as Button;
-            int index = Array.IndexOf(new[] { answerButton1, answerButton2, answerButton3, answerButton4 }, btn);
+            int index = Array.IndexOf((Array)(new[] { answerButton1, answerButton2, answerButton3, answerButton4 }), btn);
 
             bool result = checker.CheckAnswer(current, index);
             score.Record(result);
